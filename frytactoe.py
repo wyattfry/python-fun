@@ -99,6 +99,7 @@ def take_human_turn(board, player_letter, player_name):
 
 
 def take_computer_turn(board, player_letter, player_name):
+    # https://www.wikihow.com/Win-at-Tic-Tac-Toe
     sleep(0.5)
     print(player_name + "'s move [" + player_letter + "] (computer)...")
     sleep(1)
