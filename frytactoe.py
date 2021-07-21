@@ -83,6 +83,7 @@ def get_winner(board, unplayed_letter):
     if board[0][2] == board[1][1] and board[1][1] == board[2][0]:
         return board[1][1]
     return unplayed_letter
+    
 
 def get_winning_cell(board, player_letter, unplayed_letter, for_opponent = False):
     """Get first found (row_index, col_index) of cell that would win the game or None"""
