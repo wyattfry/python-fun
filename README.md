@@ -17,3 +17,9 @@ Fry Tac Toe!
 Your move (e.g. 'b2'): 
 
 ```
+
+To run unit tests:
+
+```
+$ python3 -m unittest -v frytactoe_test
+```
